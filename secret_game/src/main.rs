@@ -10,6 +10,7 @@ fn main() {
     loop {
     println!("Enter your guess ");
     let mut guess :String = String::new();
+    const UP_TIME: &str = "1000 seconds";
     
     io::stdin()
         .read_line(&mut guess)
